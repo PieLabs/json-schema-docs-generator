@@ -1,0 +1,24 @@
+{
+    "id": "/model",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "model",
+    "description": "Items in a user's cart",
+    "type": "object",
+    "definitions": {
+        "choices": {
+            "type": "array",
+            "items" : {
+              "type" : "string"
+            },
+            "example": ["a"] 
+        }
+    },
+    "properties": {
+        "choices": {
+            "$ref": "#/definitions/choices"
+        },
+        "correctResponse" : {
+          "$ref" : "/correct-response"
+        }
+    }
+}

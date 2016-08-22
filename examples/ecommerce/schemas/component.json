@@ -1,0 +1,27 @@
+{
+    "id": "/component",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Component",
+    "description": "Component",
+    "type": "object",
+    "definitions": {
+        "name": {
+            "type": "string",
+            "description": "The identifier of where the item is in the cart",
+            "example": "my-component" 
+        },
+        "version": {
+            "type": "string",
+            "description": "The amount of product that is desired",
+            "example": "0.0.1" 
+        }
+    },
+    "properties": {
+        "name": {
+            "$ref": "#/definitions/name"
+        },
+        "version": {
+            "$ref": "#/definitions/version"
+        }
+    }
+}

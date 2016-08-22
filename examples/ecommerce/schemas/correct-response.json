@@ -1,0 +1,13 @@
+{
+    "id": "/correct-response",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "correct-response",
+    "description": "correct-response",
+    "type": "object",
+    "properties": {
+        "value": {
+            "type": "string" ,
+            "example" : "apple"
+        }
+    }
+}
